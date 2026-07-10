@@ -1,6 +1,13 @@
 version: "1.0"
 projectName: Riba_1007Project
 runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: Call_AddInts
+    type: workflow
+    uid: flf6b20d33e6c47754a5f23f
+    stepId: a0
+    reference: services:add3Ints
 - runtimeAlias: Riba_ERT_1007
   assets:
   - name: Call_deepclonetest
