@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+services:
+- serviceName: project.riba_1007.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: Riba_1007Project
+    version: "1.0"
+- serviceName: project.riba_1007.integrations:SIQAAdapterFlow
+  packages:
+  - name: Riba_1007Project
+    version: "1.0"
