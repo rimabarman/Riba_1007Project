@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: Riba_1007Project
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: Call_deepclonetest
+    type: workflow
+    uid: fl8a5ac30782c63bdb1c01a0
+    stepId: a0
+    reference: project.riba_1007.integrations:deepclonetest
