@@ -1,7 +1,7 @@
 version: "1.0"
 projectName: Riba_1007Project
 runtimes:
-- runtimeAlias: Cloud Designtime
+- runtimeAlias: Riba_ERT_1007
   assets:
   - name: Call_deepclonetest
     type: workflow
