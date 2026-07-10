@@ -36,6 +36,18 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.riba_1007.integrations:AlertsCRTandERT
+  packages:
+  - name: Riba_1007Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2106
 - serviceName: project.riba_1007.integrations:SIQAAdapterFlow
   packages:
   - name: Riba_1007Project
