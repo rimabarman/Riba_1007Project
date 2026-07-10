@@ -11,10 +11,17 @@ packages:
   version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
+- name: TPP_services_in_FCS
+  gitServerName: rimaSCName
+  gitUrl: https://github.com/Karthik-V-IBM-10
+  gitUsername: rimabarman
+  gitBranch: main
 services:
 - serviceName: project.riba_1007.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1_Rima
   packages:
   - name: Riba_1007Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -24,6 +31,8 @@ services:
   packages:
   - name: Riba_1007Project
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -32,6 +41,8 @@ services:
   packages:
   - name: Riba_1007Project
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -39,6 +50,8 @@ services:
 - serviceName: project.riba_1007.integrations:AlertsCRTandERT
   packages:
   - name: Riba_1007Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -51,6 +64,8 @@ services:
 - serviceName: project.riba_1007.integrations:Copy_deepclonetest
   packages:
   - name: Riba_1007Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
@@ -72,6 +87,8 @@ services:
   packages:
   - name: Riba_1007Project
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -79,6 +96,8 @@ services:
 - serviceName: project.riba_1007.integrations:deepclonetest
   packages:
   - name: Riba_1007Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
